@@ -7,6 +7,7 @@
 //
 
 #import "SocialSharingViewController.h"
+#import <Social/Social.h>
 
 @interface SocialSharingViewController ()
 - (IBAction)postToTwitter:(id)sender;
