@@ -21,6 +21,7 @@
 		B262CD0D18468E930056F981 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B262CCEF18468E920056F981 /* UIKit.framework */; };
 		B262CD1518468E930056F981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B262CD1318468E930056F981 /* InfoPlist.strings */; };
 		B262CD1718468E930056F981 /* SocialSharingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B262CD1618468E930056F981 /* SocialSharingTests.m */; };
+		B262CD21184694AA0056F981 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B262CD20184694AA0056F981 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B262CD1218468E930056F981 /* SocialSharingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialSharingTests-Info.plist"; sourceTree = "<group>"; };
 		B262CD1418468E930056F981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B262CD1618468E930056F981 /* SocialSharingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialSharingTests.m; sourceTree = "<group>"; };
+		B262CD20184694AA0056F981 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B262CD21184694AA0056F981 /* Social.framework in Frameworks */,
 				B262CCEE18468E920056F981 /* CoreGraphics.framework in Frameworks */,
 				B262CCF018468E920056F981 /* UIKit.framework in Frameworks */,
 				B262CCEC18468E920056F981 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		B262CCEA18468E920056F981 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B262CD20184694AA0056F981 /* Social.framework */,
 				B262CCEB18468E920056F981 /* Foundation.framework */,
 				B262CCED18468E920056F981 /* CoreGraphics.framework */,
 				B262CCEF18468E920056F981 /* UIKit.framework */,
