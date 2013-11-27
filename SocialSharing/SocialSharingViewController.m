@@ -9,6 +9,8 @@
 #import "SocialSharingViewController.h"
 
 @interface SocialSharingViewController ()
+- (IBAction)postToTwitter:(id)sender;
+- (IBAction)postToFacebook:(id)sender;
 
 @end
 
@@ -26,4 +28,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)postToTwitter:(id)sender {
+}
+
+- (IBAction)postToFacebook:(id)sender {
+}
 @end
