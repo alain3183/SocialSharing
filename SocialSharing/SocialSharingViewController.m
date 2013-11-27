@@ -39,5 +39,10 @@
     }
 }
 - (IBAction)postToFacebook:(id)sender {
-}
-@end
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {
+        SLComposeViewController *controller = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+        
+        [controller setInitialText:@"First post from my iPhone app"];
+        [self presentViewController:controller animated:YES completion:Nil];
+    }
+}@end
